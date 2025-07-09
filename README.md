@@ -121,20 +121,23 @@ docker ps
 ### 6. Push to Docker Hub (Optional)
 
 - To push to Doker Hub. Run the following command
-- The first command would tag your container for easier reference
-- The second would push your container to docker hub
 
 ```bash
 docker tag <tag-reference> yourdockerhubusername/<container_name>:latest
 docker push yourdockerhubusername/<container_name>:latest
 ```
+- The first command would tag your container for easier reference
+- The second would push your container to docker hub
 
 ![Step 6.0 – Tagging and pushing to Docker Hub](images/image-8.png)
+
+- View in Docker Hub
+
 ![Step 6.1 – Docker Hub Push Success](images/image-9.png)
 
 ---
 
-## 🧼 Clean Up
+## 7. Clean Up
 
 - To Stop And delete running conatainer run the following commands
 
@@ -148,7 +151,7 @@ docker rmi rashida-portfolio
 
 ---
 
-## Summary
+## 8. Summary
 
 - Created an index.html file
 - Created a dockerfile
