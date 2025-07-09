@@ -30,9 +30,12 @@ portfolio/
 ### 1. Create the Project Directory
 
 - Open your terminal and create a folder directory
+
+   ```bash
     mkdir <dir_name>
     cd <dir_name>
     code .
+  ```
 - Then start working in your VS Code Studio
 
 ![Step 1 – Create a Project Directory ](images/image.png)
@@ -54,10 +57,13 @@ portfolio/
 
 - Create a new file and name it 'dockerfile'
 - Input below code
+
+  ```bash
     FROM nginx:alpine
     RUN rm -rf /usr/share/nginx/html/*
     COPY . /usr/share/nginx/html
     EXPOSE 80
+  ```
 - And save
 
 ![Step 3 – Create Dockerfile ](images/image-2.png)
