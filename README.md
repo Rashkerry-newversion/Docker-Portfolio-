@@ -18,6 +18,7 @@ This is a personal DevOps portfolio website built using HTML, Bootstrap, and Doc
 ## 📁 Folder Structure
 
 portfolio/
+
 ├── index.html           # Main HTML file
 
 ├── Dockerfile           # Docker instructions
